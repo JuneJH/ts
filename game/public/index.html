@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>俄罗斯方块</title>
+    <style>
+        html,body{
+            background-color: #333;
+        }
+        #root{
+            margin: 50px auto;
+            /* overflow: hidden; */
+            display: flex;
+            justify-content: center;
+        }
+        #game_panel{
+            width: 450px;
+            height: 600px;
+            position: relative;
+            background-color: #000;
+        }
+        #next-square{
+            width: 150px;
+            height: 150px;
+            position: relative;
+        }
+        #show-score{
+            text-align: center;
+            color:orange;
+            font-size: 50px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <div id="game_panel"></div>
+        <div class="show-info">
+            <div id="next-square"></div>
+            <div id="show-score">0</div>
+
+        </div>
+    </div>
+    <div class="btn" style="text-align: center;">
+        <button id="down">向下移动</button>
+        <button id="left">向左移动</button>
+        <button id="right">向右移动</button>
+        <button id="rotate">旋转</button>
+        <button id="start">开始</button>
+        <button id="pause">暂停</button>
+    </div>
+</body>
+</html>

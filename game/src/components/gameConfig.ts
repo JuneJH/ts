@@ -1,0 +1,23 @@
+export const gameConfig = {
+    gamePanel:{
+        width:15,
+        height:20,
+    },
+    nextPanel:{
+        width:6,
+        height:6
+    },
+    gameLevel:[
+        {score:10,duraction:800},
+        {score:20,duraction:700},
+        {score:40,duraction:600},
+        {score:50,duraction:500},
+        {score:60,duraction:400},
+        {score:70,duraction:300},
+        {score:80,duraction:200},
+        {score:90,duraction:200},
+        {score:100,duraction:100},
+        {score:150,duraction:50},
+        {score:200,duraction:30},
+    ]
+}

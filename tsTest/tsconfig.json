@@ -1,0 +1,10 @@
+{
+  "compilerOptions":{
+    // 编译选项
+    "target":"ES2016",
+    "module": "CommonJS",
+    "lib": ["ES2016"],//@types/node 是ts官方库，其中包含了很多对js的类型描述
+    "outDir": "./dist"
+  },
+  "include": ["./src"],
+}

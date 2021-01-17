@@ -1,0 +1,9 @@
+{
+  "scripts":{
+    "dev":"nodemon --watch src -e ts --exec ts-node src/permission.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4"
+  }
+}  
+    
